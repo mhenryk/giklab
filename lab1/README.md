@@ -49,10 +49,10 @@ Wciśnięcie back w aplikacji otwiera okno dialogowe pytające użytkownika czy 
 ## Kolejne laboratorium ##
 W kolejnym laboratorium będziemy operować na layoutach i będziemy kontynuować aplikację, która powstała na 1wszych zajęciach.
 
-#Uwaga#
+# Uwaga #
 Ze względu na przebiegającą modernizację laboratorium proszę zabezpieczyć wyniki swojej pracy.
 
-#Literatura
+# Literatura #
 [https://developer.android.com/training/index.html](https://developer.android.com/training/index.html)
 
 [https://developer.android.com/reference/packages.html](https://developer.android.com/reference/packages.html)
