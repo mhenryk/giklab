@@ -41,7 +41,7 @@ Zamienić layout na activity\_main2 i dodać Fragment, korzystający z layoutu f
 Przy starcie aplikacji dodać zapytanie do systemu o uzyskanie uprawnień do lokalizacji (tylko uprawnienia, bez pobierania lokalizacji).
 
 ### Zadanie 4 ###
-Utworzyć menu, umieścić tam jakiś przycisk, jego wcisnięcie niech tworzy Snackbar z jakimś tekstem.
+Utworzyć menu, umieścić tam jakiś przycisk, poeksperymentować z jego widocznością, jego wcisnięcie wykonuje akcję share z współrzędnymi wpisanymi w tekst
 
 ### Zadanie 5 ###
 Wciśnięcie back w aplikacji otwiera okno dialogowe pytające użytkownika czy chce opuścić aplikację.
