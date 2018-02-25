@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GikLab</string>
+    <string name="open_maps">Open maps</string>
+    <string name="main_screen_title">Main screen</string>
+    <string name="latitude_hint">Latitude</string>
+    <string name="longitude_hint">Longitude</string>
+</resources>
