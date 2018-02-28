@@ -17,3 +17,7 @@ Zrobić osobny layout dla widoku landscape.
 Utworzyć nowe Activity, posiadające Fragment. Fragment ma EditText, w który możemy wpisać adres mailowy oraz przycisk powodujący cofnięcie z ekranu i zwrócenie wyniku do poprzedniego ekranu
 Następnie zwrócony wynik zostaje wyświetlony na dodatkowym widoku na ekranie, z którego wychodziliśmy.
 Dodajemy przycisk, który ma wykonać share wszystkich danych (jakiś tekst + współrzędnych) do wybranego kontaktu drogą mailową.
+
+# Na następne laboratorium
+- Poczytać o RecyclerView i spróbować zaimplementować prosty RecyclerView.
+- Poczytać jak wyciągnąć aktualną lokalizację z urządzenia przy użyciu dwóch dostępnych API.
