@@ -20,4 +20,6 @@ Dodajemy przycisk, który ma wykonać share wszystkich danych (jakiś tekst + ws
 
 # Na następne laboratorium
 - Poczytać o RecyclerView i spróbować zaimplementować prosty RecyclerView.
+https://developer.android.com/guide/topics/ui/layout/recyclerview.html
 - Poczytać jak wyciągnąć aktualną lokalizację z urządzenia przy użyciu dwóch dostępnych API.
+https://developer.android.com/training/location/index.html
