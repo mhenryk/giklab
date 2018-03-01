@@ -20,12 +20,13 @@ public class MainActivity extends AppCompatActivity implements ToolbarOwner1, To
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         if (savedInstanceState == null) {
             Fragment fragment = new ContentFragment();
             getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commit();
         }
-        toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, REQ_CODE_PERMISSION);
