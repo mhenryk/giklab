@@ -6,7 +6,7 @@
 
 Utworzyć nowy projekt, określić, w Manifeście, że aplikacja ma uprawnienia do lokalizacji gps (fine).
 
-Poprosić użytkownika o lokalizację.
+Poprosić użytkownika o uprawnienia do lokalizacji. (Android 6.0+)
 
 ### Zadanie 2 ###
 
