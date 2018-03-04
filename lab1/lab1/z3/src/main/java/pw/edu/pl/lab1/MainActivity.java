@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements ToolbarOwner1, To
     }
 
     private boolean hasLocationPermission() {
-        String permission = android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
+        String permission = Manifest.permission.ACCESS_FINE_LOCATION;
         int res = checkCallingOrSelfPermission(permission);
         return (res == PackageManager.PERMISSION_GRANTED);
     }

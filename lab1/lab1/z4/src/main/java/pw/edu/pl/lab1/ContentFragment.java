@@ -20,7 +20,7 @@ import android.widget.Toast;
 
 public class ContentFragment extends Fragment {
 
-    private Toolbar  toolbar;
+    private Toolbar toolbar;
     private EditText latitudeEditText;
     private EditText longituteEditText;
 
@@ -56,7 +56,7 @@ public class ContentFragment extends Fragment {
 
     private void openGoogleMapsInBrowser(double latitude, double longitude) {
         Uri googleMapsUri = Uri.parse("https://www.google.com/maps/@?api=1&map_action=map&center=" + latitude + "," +
-                                              longitude + "&zoom=12");
+                longitude + "&zoom=12");
         Intent viewIntent = new Intent(Intent.ACTION_VIEW);
         viewIntent.setData(googleMapsUri);
         if (viewIntent.resolveActivity(getContext().getPackageManager()) != null) {
@@ -91,7 +91,8 @@ public class ContentFragment extends Fragment {
         //metoda 2
         if (activity instanceof ToolbarOwner2) {
             toolbar = ((ToolbarOwner2) activity).getToolbar();
-            toolbar.setTitle("Tytul z fragmentu 2");
+            if (toolbar != null)
+                toolbar.setTitle("Tytul z fragmentu 2");
         }
     }
 

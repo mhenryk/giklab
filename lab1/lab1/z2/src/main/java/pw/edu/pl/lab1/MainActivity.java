@@ -15,7 +15,10 @@ public class MainActivity extends AppCompatActivity implements ToolbarOwner1, To
         setContentView(R.layout.activity_main2);
         if(savedInstanceState==null) {
             Fragment fragment = new ContentFragment();
-            getSupportFragmentManager().beginTransaction().replace(R.id.container,fragment).commit();
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.container,fragment)
+                    .commit();
         }
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
