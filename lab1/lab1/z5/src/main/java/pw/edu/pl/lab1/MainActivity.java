@@ -3,6 +3,7 @@ package pw.edu.pl.lab1;
 import android.Manifest;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -79,5 +80,11 @@ public class MainActivity extends AppCompatActivity implements ToolbarOwner1, To
     @Override
     public Toolbar getToolbar() {
         return toolbar;
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        String email = data.getStringExtra(JAKAS_NAZWA)
     }
 }
