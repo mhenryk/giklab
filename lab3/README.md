@@ -10,7 +10,15 @@ Poprosić użytkownika o uprawnienia do lokalizacji. (Android 6.0+)
 
 ### Zadanie 2 ###
 
-Po otrzymaniu zgody użytkownika wyświetlić dwa TextView, w których bedą widoczne aktualne współrzędne. Dokonać pobrania lokalizacji.
+W app/build.gradle dodać
+
+dependencies {
+	...
+    implementation 'com.google.android.gms:play-services-location:11.8.0'
+	...
+}
+
+Następnie, po otrzymaniu zgody użytkownika wyświetlić dwa TextView, w których bedą widoczne aktualne współrzędne. Dokonać pobrania lokalizacji.
 
 Po skutecznym pobraniu lokalizacji zmienić kod tak aby otrzymywać lokalizację w regularnych interwałach, np. 30s.
 
