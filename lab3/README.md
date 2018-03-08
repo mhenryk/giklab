@@ -24,7 +24,7 @@ Po skutecznym pobraniu lokalizacji zmienić kod tak aby otrzymywać lokalizację
 
 ### Zadanie 3 ###
 
-Pod współrzędnymi wyświetlić listę (RecyclerView), i w niej wyświetlić historię współrzędnych. Każdy pomiar opatrzyć timestampem pochodzącym z System.currentTimeMillis()
+Pod współrzędnymi wyświetlić listę (RecyclerView), i w niej wyświetlić historię współrzędnych.
 
 ## Literatura ##
 
