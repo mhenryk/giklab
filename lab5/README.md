@@ -12,7 +12,10 @@ new GeoServerUrlTileProvider("http://vps526645.ovh.net:8145/geoserver/gwc/servic
                         256, 256)))
 						
 ## Zadanie 2 ##
+
 Uruchomić nowy wątek, uśpić go na kilka sekund, przesunać kamerę po wybudzeniu
 
 ## Zadanie 3 ##
+
+Przy uruchomieniu activity dodać jakąś wartość do SharedPreferences, jeśli jej tam jeszcze nie ma. Jeśli jest, wypisać w logach na konsolę.
 
