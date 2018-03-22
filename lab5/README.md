@@ -10,3 +10,9 @@ new GeoServerUrlTileProvider("http://vps526645.ovh.net:8145/geoserver/gwc/servic
                         "gik",
                         "S2A_20170829T152942_T34UCF_CHL_OC3",
                         256, 256)))
+						
+## Zadanie 2 ##
+Uruchomić nowy wątek, uśpić go na kilka sekund, przesunać kamerę po wybudzeniu
+
+## Zadanie 3 ##
+

@@ -27,7 +27,7 @@ public class GeoServerUrlTileProvider extends UrlTileProvider {
         Uri uri = new Uri.Builder()
                 .encodedPath(baseUrl)
                 .appendEncodedPath("gmaps")
-                .appendQueryParameter("layers", "$store:$layer")
+                .appendQueryParameter("layers", store+":"+layer")
                 .appendQueryParameter("x", String.valueOf(x))
                 .appendQueryParameter("y", String.valueOf(y))
                 .appendQueryParameter("zoom", String.valueOf(zoom))
